@@ -1,0 +1,6 @@
+SetStoreCapsLockMode, Off ; without this sendinput will spam capslock
+SetMouseDelay, -1  ;removes 10-30ms delay on clicks and Lbutton sendinputs
+SetBatchLines, -1  ; removes occasional delay that occurs in code
+CoordMode, ToolTip, screen   ; makes coordinate stuff involve screen coordinates rather than something stupid like window relative coordinates
+CoordMode, pixel, screen   ; ^
+CoordMode, mouse, screen ; ^
